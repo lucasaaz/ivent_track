@@ -253,17 +253,24 @@ class _ListWidgetState extends State<ListWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              '8t4pbvkm' /* Title */,
+                                            "Título",
+                                            style: TextStyle(
+                                              fontFamily: 'Outfit',
+                                              color: Color(0xFF090F13),
+                                              fontSize: 20.0,
+                                              fontWeight: FontWeight.w500,
                                             ),
-                                            style: FlutterFlowTheme.of(context)
-                                                .headlineSmall
-                                                .override(
-                                                  fontFamily: 'Outfit',
-                                                  color: Color(0xFF090F13),
-                                                  fontSize: 20.0,
-                                                  fontWeight: FontWeight.w500,
-                                                ),
+                                            // FFLocalizations.of(context).getText(
+                                            //   '8t4pbvkm' /* Title */,
+                                            // ),
+                                            // style: FlutterFlowTheme.of(context)
+                                            //     .headlineSmall
+                                            //     .override(
+                                            //       fontFamily: 'Outfit',
+                                            //       color: Color(0xFF090F13),
+                                            //       fontSize: 20.0,
+                                            //       fontWeight: FontWeight.w500,
+                                            //     ),
                                           ),
                                           Row(
                                             mainAxisSize: MainAxisSize.max,
@@ -273,21 +280,29 @@ class _ListWidgetState extends State<ListWidget> {
                                                     .fromSTEB(
                                                         0.0, 4.0, 0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'qgsnzhbo' /* Subtitle */,
+                                                  "Descrição: ",
+                                                  style: TextStyle(
+                                                    fontFamily: 'Outfit',
+                                                    color: Color(0xFF7C8791),
+                                                    fontSize: 14.0,
+                                                    fontWeight:
+                                                        FontWeight.normal,
                                                   ),
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodySmall
-                                                      .override(
-                                                        fontFamily: 'Outfit',
-                                                        color:
-                                                            Color(0xFF7C8791),
-                                                        fontSize: 14.0,
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                      ),
+                                                  // FFLocalizations.of(context)
+                                                  //     .getText(
+                                                  //   'qgsnzhbo' /* Subtitle */,
+                                                  // ),
+                                                  // style: FlutterFlowTheme.of(
+                                                  //         context)
+                                                  //     .bodySmall
+                                                  //     .override(
+                                                  //       fontFamily: 'Outfit',
+                                                  //       color:
+                                                  //           Color(0xFF7C8791),
+                                                  //       fontSize: 14.0,
+                                                  //       fontWeight:
+                                                  //           FontWeight.normal,
+                                                  //     ),
                                                 ),
                                               ),
                                               Padding(
@@ -295,21 +310,29 @@ class _ListWidgetState extends State<ListWidget> {
                                                     .fromSTEB(
                                                         4.0, 4.0, 0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'nc2nutjt' /* subtext */,
+                                                  "Qualquer coisa ",
+                                                  style: TextStyle(
+                                                    fontFamily: 'Outfit',
+                                                    color: Color(0xFF090F13),
+                                                    fontSize: 10.0,
+                                                    fontWeight:
+                                                        FontWeight.normal,
                                                   ),
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Outfit',
-                                                        color:
-                                                            Color(0xFF090F13),
-                                                        fontSize: 14.0,
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                      ),
+                                                  //   // FFLocalizations.of(context)
+                                                  //   //     .getText(
+                                                  //   //   'nc2nutjt' /* subtext */,
+                                                  //   // ),
+                                                  //   style: FlutterFlowTheme.of(
+                                                  //           context)
+                                                  //       .bodyMedium
+                                                  //       .override(
+                                                  //         fontFamily: 'Outfit',
+                                                  //         color:
+                                                  //             Color(0xFF090F13),
+                                                  //         fontSize: 14.0,
+                                                  //         fontWeight:
+                                                  //             FontWeight.normal,
+                                                  //       ),
                                                 ),
                                               ),
                                             ],
