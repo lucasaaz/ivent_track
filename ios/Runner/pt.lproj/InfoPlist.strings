@@ -1,0 +1,4 @@
+NSCameraUsageDescription = "Permitir acesso á camera";
+NSLocationWhenInUseUsageDescription = "Permitir acesso á Localização";
+PermissionGroupNotification = "Permitir acesso á Notificação";
+NSPhotoLibraryUsageDescription = "Permitir acesso á Galeria";
