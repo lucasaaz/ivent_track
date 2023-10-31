@@ -98,47 +98,44 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment:
-                                      MainAxisAlignment.spaceEvenly,
+                                  MainAxisAlignment.spaceEvenly,
                                   children: [
                                     Opacity(
                                       opacity: 0.8,
                                       child: Align(
                                         alignment:
-                                            AlignmentDirectional(0.00, 0.00),
+                                        AlignmentDirectional(0.00, 0.00),
                                         child: FFButtonWidget(
                                           onPressed: () async {
                                             context.pushNamed('Profile');
                                           },
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'hd9c7fco' /* PERFIL */,
-                                          ),
+                                          text: 'PERFIL',
                                           options: FFButtonOptions(
                                             width: 150.0,
                                             height: 180.0,
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                             iconPadding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                             color: Color(0xFF131313),
                                             textStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .titleSmall
-                                                    .override(
-                                                      fontFamily: 'Readex Pro',
-                                                      color: Colors.white,
-                                                      fontWeight:
-                                                          FontWeight.normal,
-                                                    ),
+                                            FlutterFlowTheme.of(context)
+                                                .titleSmall
+                                                .override(
+                                              fontFamily: 'Readex Pro',
+                                              color: Colors.white,
+                                              fontWeight:
+                                              FontWeight.normal,
+                                            ),
                                             elevation: 3.0,
                                             borderSide: BorderSide(
                                               color: Color(0x5F000000),
                                               width: 3.0,
                                             ),
                                             borderRadius:
-                                                BorderRadius.circular(0.0),
+                                            BorderRadius.circular(0.0),
                                           ),
                                         ),
                                       ),
@@ -147,41 +144,38 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       opacity: 0.8,
                                       child: Align(
                                         alignment:
-                                            AlignmentDirectional(0.00, 0.00),
+                                        AlignmentDirectional(0.00, 0.00),
                                         child: FFButtonWidget(
                                           onPressed: () {
                                             print('Button pressed ...');
                                           },
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'wf5dzog3' /* CRIAR */,
-                                          ),
+                                          text: 'CRIAR',
                                           options: FFButtonOptions(
                                             width: 150.0,
                                             height: 180.0,
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                             iconPadding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                             color: Color(0xFF131313),
                                             textStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .titleSmall
-                                                    .override(
-                                                      fontFamily: 'Readex Pro',
-                                                      color: Colors.white,
-                                                      fontWeight:
-                                                          FontWeight.normal,
-                                                    ),
+                                            FlutterFlowTheme.of(context)
+                                                .titleSmall
+                                                .override(
+                                              fontFamily: 'Readex Pro',
+                                              color: Colors.white,
+                                              fontWeight:
+                                              FontWeight.normal,
+                                            ),
                                             elevation: 3.0,
                                             borderSide: BorderSide(
                                               color: Color(0x5F000000),
                                               width: 3.0,
                                             ),
                                             borderRadius:
-                                                BorderRadius.circular(0.0),
+                                            BorderRadius.circular(0.0),
                                           ),
                                         ),
                                       ),
@@ -191,47 +185,44 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment:
-                                      MainAxisAlignment.spaceEvenly,
+                                  MainAxisAlignment.spaceEvenly,
                                   children: [
                                     Opacity(
                                       opacity: 0.8,
                                       child: Align(
                                         alignment:
-                                            AlignmentDirectional(0.00, 0.00),
+                                        AlignmentDirectional(0.00, 0.00),
                                         child: FFButtonWidget(
                                           onPressed: () {
                                             print('Button pressed ...');
                                           },
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'pj6syhkf' /* EDITAR */,
-                                          ),
+                                          text: 'EDITAR',
                                           options: FFButtonOptions(
                                             width: 150.0,
                                             height: 180.0,
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                             iconPadding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                             color: Color(0xFF131313),
                                             textStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .titleSmall
-                                                    .override(
-                                                      fontFamily: 'Readex Pro',
-                                                      color: Colors.white,
-                                                      fontWeight:
-                                                          FontWeight.normal,
-                                                    ),
+                                            FlutterFlowTheme.of(context)
+                                                .titleSmall
+                                                .override(
+                                              fontFamily: 'Readex Pro',
+                                              color: Colors.white,
+                                              fontWeight:
+                                              FontWeight.normal,
+                                            ),
                                             elevation: 3.0,
                                             borderSide: BorderSide(
                                               color: Color(0x5F000000),
                                               width: 3.0,
                                             ),
                                             borderRadius:
-                                                BorderRadius.circular(0.0),
+                                            BorderRadius.circular(0.0),
                                           ),
                                         ),
                                       ),
@@ -240,41 +231,38 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       opacity: 0.8,
                                       child: Align(
                                         alignment:
-                                            AlignmentDirectional(0.00, 0.00),
+                                        AlignmentDirectional(0.00, 0.00),
                                         child: FFButtonWidget(
                                           onPressed: () {
                                             print('Button pressed ...');
                                           },
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            '1a4ftd8d' /* DASHBOARD */,
-                                          ),
+                                          text: 'DASHBOAR',
                                           options: FFButtonOptions(
                                             width: 150.0,
                                             height: 180.0,
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                             iconPadding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 0.0, 0.0),
+                                            EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                             color: Color(0xFF131313),
                                             textStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .titleSmall
-                                                    .override(
-                                                      fontFamily: 'Readex Pro',
-                                                      color: Colors.white,
-                                                      fontWeight:
-                                                          FontWeight.normal,
-                                                    ),
+                                            FlutterFlowTheme.of(context)
+                                                .titleSmall
+                                                .override(
+                                              fontFamily: 'Readex Pro',
+                                              color: Colors.white,
+                                              fontWeight:
+                                              FontWeight.normal,
+                                            ),
                                             elevation: 3.0,
                                             borderSide: BorderSide(
                                               color: Color(0x5F000000),
                                               width: 3.0,
                                             ),
                                             borderRadius:
-                                                BorderRadius.circular(0.0),
+                                            BorderRadius.circular(0.0),
                                           ),
                                         ),
                                       ),
