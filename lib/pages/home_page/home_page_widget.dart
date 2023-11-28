@@ -109,10 +109,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           onPressed: () async {
                                             context.pushNamed('Profile');
                                           },
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'hd9c7fco' /* PERFIL */,
-                                          ),
+                                          text: 'PERFIL',
                                           options: FFButtonOptions(
                                             width: 150.0,
                                             height: 180.0,
@@ -152,10 +149,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           onPressed: () {
                                             print('Button pressed ...');
                                           },
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'wf5dzog3' /* CRIAR */,
-                                          ),
+                                          text: 'CRIAR',
                                           options: FFButtonOptions(
                                             width: 150.0,
                                             height: 180.0,
@@ -202,10 +196,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           onPressed: () {
                                             print('Button pressed ...');
                                           },
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'pj6syhkf' /* EDITAR */,
-                                          ),
+                                          text: 'EDITAR',
                                           options: FFButtonOptions(
                                             width: 150.0,
                                             height: 180.0,
@@ -245,10 +236,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           onPressed: () {
                                             print('Button pressed ...');
                                           },
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            '1a4ftd8d' /* DASHBOARD */,
-                                          ),
+                                          text: 'DASHBOAR',
                                           options: FFButtonOptions(
                                             width: 150.0,
                                             height: 180.0,
